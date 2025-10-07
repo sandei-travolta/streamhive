@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:streamhive/views/splash-screen/SplashScreen.dart';
+import 'package:streamhive/views/splash-screen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
