@@ -26,3 +26,8 @@ Repository classes are the source of truth for your model data.
 They're responsible for polling data from services, and transforming that raw data into domain models
 
 Services wrap API endpoints and expose asynchronous response objects.
+
+## Navigation
+The application uses GoRoute for navigation.
+
+
