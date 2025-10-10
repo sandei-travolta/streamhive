@@ -9,4 +9,8 @@ abstract final class Apptheme{
     brightness: Brightness.light,
     colorScheme: AppColors.lightColorSheme
   );
+  static ThemeData darkTheme=ThemeData(
+    brightness: Brightness.dark,
+    colorScheme: AppColors.darkColorScheme
+  );
 }
