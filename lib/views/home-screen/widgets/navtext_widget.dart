@@ -7,8 +7,15 @@ class NavText extends StatelessWidget {
   final String text;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text(text),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 35.0),
+      child: Container(
+        child: Text(text,
+        style: TextStyle(
+          fontSize: 18.0,
+          fontWeight: FontWeight.w600
+        ),),
+      ),
     );
   }
 }
