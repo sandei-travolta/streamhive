@@ -14,9 +14,11 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget{
       title: logoText(context),
       actions: [
         Padding(
-          padding:  EdgeInsets.only(right:35.0),
+          padding:  EdgeInsets.only(right:45.0),
           child: Container(
+            width: MediaQuery.widthOf(context)*0.6,
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 NavText(text: 'Home'),
                 NavText(text: 'Movies'),
