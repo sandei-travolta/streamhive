@@ -13,7 +13,7 @@ class SearchBarWidget extends StatelessWidget {
         child: IconButton(onPressed: (){
           ///TO DO: Navigate to search page
         },
-            icon: Icon(Icons.search,size: 35,)
+            icon: Icon(Icons.search,size: 30)
         ),
       ),
     );
